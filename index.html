@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <style>
+        body{
+            background: rgb(183, 155, 135);
+        }
+    </style>
+     
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Coffee Shop</h1>
+</header>
+
+<nav>
+    <ul>
+       <li><a href="#about">About Us</a></li> 
+       <li><a href="#menu">Menu</a></li> 
+       <li><a href="#contact">Contact</a></li>
+
+
+    </ul>
+   
+
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to our cozy coffee shop! We offer a wide range of delicious coffee drinks, pastries, and snacks in a warm and inviting atmosphere. Whether you're here to catch up with friends or get some work done, we have the perfect spot for you.</p>
+   <hr>
+    <img src="nafinia-putra-Kwdp-0pok-I-unsplash-scaled.jpg"  height="600"alt="Coffee Shop">
+</section>
+<hr>
+
+<section id="menu">
+   <h2>Our Menu :</h2>
+    <table border="1">
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td><img src="espresso.jpg" alt="Espresso" class="menu-photo"></td>
+            <td>Single shot of espresso</td>
+            <td><strong>$2.50</strong></td>
+        </tr>
+        <tr>
+            <td><img src="cappuccino.jpg" alt="Cappuccino" class="menu-photo"></td>
+            <td>Espresso with equal parts steamed milk and foam</td>
+            <td><strong>$3.00</strong></td>
+        </tr>
+        <tr>
+            <td><img src="latte.jpg" alt="Latte" class="menu-photo"></td>
+            <td>Espresso with steamed milk and a small amount of foam</td>
+            <td><strong>$3.50</strong></td>
+        
+        </tr>
+        <tr>
+            <td><img src="mocha.jpg" alt="Mocha" class="menu-photo"></td>
+            <td>Espresso with steamed milk, chocolate syrup, and topped with whipped cream</td>
+            <td><strong>$4.00</strong></td>
+        </tr>
+        <tr>
+            <td><img src="americano.jpg" alt="Americano" class="menu-photo"></td>
+            <td>Espresso with hot water</td>
+            <td><strong>$2.75</strong></td>
+        </tr>
+    </table >
+</section>
+
+<section id="video">
+    <h2>Our Coffee Making Process</h2>
+    <video width="400" controls muted>
+        <source src="This is how your coffee made it to your table.mp4" with="5" type="video/mp4">
+    </video>
+    
+<section id="order">
+    <h2>Online Order</h2>
+    <form class="order-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required>
+        <label for="item">Item:</label>
+        <select id="item" name="item" required>
+            <option value="">Select an item...</option>
+            <option value="espresso">Espresso</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="latte">Latte</option>
+            <option value="mocha">Mocha</option>
+            <option value="americano">Americano</option>
+        </select>
+        <label for="quantity">Quantity:</label>
+        <input type="number" max="20">
+        <input type="submit" value="order">
+        <h1>what your favorite coffee in our shop</h1>
+
+        <form action="/action_page.php">
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="coff">
+          <label for="vehicle1"> Espresso</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="coff">
+          <label for="vehicle2"> Cappuccino</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="coff">
+          <label for="vehicle3"> Latte</label><br>
+          <input type="checkbox" id="vehicle4" name="vehicle4" value="coff">
+          <label for="vehicle3">Macha </label><br>
+          <input type="checkbox" id="vehicle5" name="vehicle5" value="coff">
+          <label for="vehicle3"> Americano</label><br>
+
+          <input type="submit" value="Done">
+        </form>
+
+
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or feedback, feel free to get in touch!</p>
+    <p>Email: info@coffeeshop.com</p>
+    <p>Phone: 123-456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
